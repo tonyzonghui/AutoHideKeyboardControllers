@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		741416BE178BBF3900287F4E /* AutoHideKeyboardTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741416BB178BBF3900287F4E /* AutoHideKeyboardTableViewController.m */; };
+		741416BF178BBF3900287F4E /* AutoHideKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741416BD178BBF3900287F4E /* AutoHideKeyboardViewController.m */; };
+		748DB9DE17320DB900F0F312 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 748DB9DD17320DB900F0F312 /* UIKit.framework */; };
+		748DB9E017320DB900F0F312 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 748DB9DF17320DB900F0F312 /* Foundation.framework */; };
+		748DB9E217320DB900F0F312 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 748DB9E117320DB900F0F312 /* CoreGraphics.framework */; };
+		748DB9E817320DB900F0F312 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 748DB9E617320DB900F0F312 /* InfoPlist.strings */; };
+		748DB9EA17320DB900F0F312 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 748DB9E917320DB900F0F312 /* main.m */; };
+		748DB9EE17320DB900F0F312 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 748DB9ED17320DB900F0F312 /* AppDelegate.m */; };
+		748DB9F017320DB900F0F312 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 748DB9EF17320DB900F0F312 /* Default.png */; };
+		748DB9F217320DB900F0F312 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 748DB9F117320DB900F0F312 /* Default@2x.png */; };
+		748DB9F417320DB900F0F312 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 748DB9F317320DB900F0F312 /* Default-568h@2x.png */; };
+		748DB9F717320DB900F0F312 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748DB9F517320DB900F0F312 /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		741416BA178BBF3900287F4E /* AutoHideKeyboardTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoHideKeyboardTableViewController.h; sourceTree = "<group>"; };
+		741416BB178BBF3900287F4E /* AutoHideKeyboardTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoHideKeyboardTableViewController.m; sourceTree = "<group>"; };
+		741416BC178BBF3900287F4E /* AutoHideKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoHideKeyboardViewController.h; sourceTree = "<group>"; };
+		741416BD178BBF3900287F4E /* AutoHideKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoHideKeyboardViewController.m; sourceTree = "<group>"; };
+		741416C0178BC0DE00287F4E /* AutoHideKeyboardControllers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoHideKeyboardControllers.h; sourceTree = "<group>"; };
+		748DB9DA17320DB900F0F312 /* TestAutoHideKeyboardViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAutoHideKeyboardViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		748DB9DD17320DB900F0F312 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		748DB9DF17320DB900F0F312 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		748DB9E117320DB900F0F312 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		748DB9E517320DB900F0F312 /* TestAutoHideKeyboardViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestAutoHideKeyboardViewController-Info.plist"; sourceTree = "<group>"; };
+		748DB9E717320DB900F0F312 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		748DB9E917320DB900F0F312 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		748DB9EB17320DB900F0F312 /* TestAutoHideKeyboardViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestAutoHideKeyboardViewController-Prefix.pch"; sourceTree = "<group>"; };
+		748DB9EC17320DB900F0F312 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		748DB9ED17320DB900F0F312 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		748DB9EF17320DB900F0F312 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		748DB9F117320DB900F0F312 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		748DB9F317320DB900F0F312 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		748DB9F617320DB900F0F312 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		748DB9D717320DB900F0F312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				748DB9DE17320DB900F0F312 /* UIKit.framework in Frameworks */,
+				748DB9E017320DB900F0F312 /* Foundation.framework in Frameworks */,
+				748DB9E217320DB900F0F312 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		741416B9178BBF3900287F4E /* AutoHideKeyboardControllers */ = {
+			isa = PBXGroup;
+			children = (
+				741416BA178BBF3900287F4E /* AutoHideKeyboardTableViewController.h */,
+				741416BB178BBF3900287F4E /* AutoHideKeyboardTableViewController.m */,
+				741416BC178BBF3900287F4E /* AutoHideKeyboardViewController.h */,
+				741416BD178BBF3900287F4E /* AutoHideKeyboardViewController.m */,
+				741416C0178BC0DE00287F4E /* AutoHideKeyboardControllers.h */,
+			);
+			path = AutoHideKeyboardControllers;
+			sourceTree = SOURCE_ROOT;
+		};
+		748DB9D117320DB900F0F312 = {
+			isa = PBXGroup;
+			children = (
+				748DB9E317320DB900F0F312 /* TestTapBackgroundToHideKeyboard */,
+				748DB9DC17320DB900F0F312 /* Frameworks */,
+				748DB9DB17320DB900F0F312 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		748DB9DB17320DB900F0F312 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				748DB9DA17320DB900F0F312 /* TestAutoHideKeyboardViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		748DB9DC17320DB900F0F312 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				748DB9DD17320DB900F0F312 /* UIKit.framework */,
+				748DB9DF17320DB900F0F312 /* Foundation.framework */,
+				748DB9E117320DB900F0F312 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		748DB9E317320DB900F0F312 /* TestTapBackgroundToHideKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				748DB9EC17320DB900F0F312 /* AppDelegate.h */,
+				748DB9ED17320DB900F0F312 /* AppDelegate.m */,
+				748DB9F517320DB900F0F312 /* MainStoryboard.storyboard */,
+				741416B9178BBF3900287F4E /* AutoHideKeyboardControllers */,
+				748DB9E417320DB900F0F312 /* Supporting Files */,
+			);
+			name = TestTapBackgroundToHideKeyboard;
+			path = TestAutoHideKeyboardViewController;
+			sourceTree = "<group>";
+		};
+		748DB9E417320DB900F0F312 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				748DB9E517320DB900F0F312 /* TestAutoHideKeyboardViewController-Info.plist */,
+				748DB9E617320DB900F0F312 /* InfoPlist.strings */,
+				748DB9E917320DB900F0F312 /* main.m */,
+				748DB9EB17320DB900F0F312 /* TestAutoHideKeyboardViewController-Prefix.pch */,
+				748DB9EF17320DB900F0F312 /* Default.png */,
+				748DB9F117320DB900F0F312 /* Default@2x.png */,
+				748DB9F317320DB900F0F312 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		748DB9D917320DB900F0F312 /* TestAutoHideKeyboardViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 748DB9FD17320DB900F0F312 /* Build configuration list for PBXNativeTarget "TestAutoHideKeyboardViewController" */;
+			buildPhases = (
+				748DB9D617320DB900F0F312 /* Sources */,
+				748DB9D717320DB900F0F312 /* Frameworks */,
+				748DB9D817320DB900F0F312 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestAutoHideKeyboardViewController;
+			productName = TestTapBackgroundToHideKeyboard;
+			productReference = 748DB9DA17320DB900F0F312 /* TestAutoHideKeyboardViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		748DB9D217320DB900F0F312 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = PhoneSoul;
+			};
+			buildConfigurationList = 748DB9D517320DB900F0F312 /* Build configuration list for PBXProject "TestAutoHideKeyboardViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 748DB9D117320DB900F0F312;
+			productRefGroup = 748DB9DB17320DB900F0F312 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				748DB9D917320DB900F0F312 /* TestAutoHideKeyboardViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		748DB9D817320DB900F0F312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				748DB9E817320DB900F0F312 /* InfoPlist.strings in Resources */,
+				748DB9F017320DB900F0F312 /* Default.png in Resources */,
+				748DB9F217320DB900F0F312 /* Default@2x.png in Resources */,
+				748DB9F417320DB900F0F312 /* Default-568h@2x.png in Resources */,
+				748DB9F717320DB900F0F312 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		748DB9D617320DB900F0F312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				748DB9EA17320DB900F0F312 /* main.m in Sources */,
+				748DB9EE17320DB900F0F312 /* AppDelegate.m in Sources */,
+				741416BE178BBF3900287F4E /* AutoHideKeyboardTableViewController.m in Sources */,
+				741416BF178BBF3900287F4E /* AutoHideKeyboardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		748DB9E617320DB900F0F312 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				748DB9E717320DB900F0F312 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		748DB9F517320DB900F0F312 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				748DB9F617320DB900F0F312 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		748DB9FB17320DB900F0F312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		748DB9FC17320DB900F0F312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		748DB9FE17320DB900F0F312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestAutoHideKeyboardViewController/TestAutoHideKeyboardViewController-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/TestAutoHideKeyboardViewController/TestAutoHideKeyboardViewController-Info.plist";
+				PRODUCT_NAME = TestAutoHideKeyboardViewController;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		748DB9FF17320DB900F0F312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestAutoHideKeyboardViewController/TestAutoHideKeyboardViewController-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/TestAutoHideKeyboardViewController/TestAutoHideKeyboardViewController-Info.plist";
+				PRODUCT_NAME = TestAutoHideKeyboardViewController;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		748DB9D517320DB900F0F312 /* Build configuration list for PBXProject "TestAutoHideKeyboardViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				748DB9FB17320DB900F0F312 /* Debug */,
+				748DB9FC17320DB900F0F312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		748DB9FD17320DB900F0F312 /* Build configuration list for PBXNativeTarget "TestAutoHideKeyboardViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				748DB9FE17320DB900F0F312 /* Debug */,
+				748DB9FF17320DB900F0F312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 748DB9D217320DB900F0F312 /* Project object */;
+}
